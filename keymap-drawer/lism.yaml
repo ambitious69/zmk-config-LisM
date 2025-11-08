@@ -49,31 +49,31 @@ layers:
   - Sft+3
   - Sft+8
   - Sft+9
-  - SPACE
-  - Gui+←
-  - Gui+→
-  - '&mkp MB3'
-  - {t: ▽, type: trans}
+  - PERIOD
+  - KP 7
+  - KP 8
+  - KP 9
+  - '-'
   - /
   - Sft+5
   - Sft+6
   - Sft+,
   - Sft+PERIOD
-  - Gui+↑
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&msc SCRL_UP'
-  - '&msc SCRL_DOWN'
+  - ','
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP SLASH
   - Sft+{
   - Sft+7
   - Sft+2
   - Sft+}
   - Sft+\
-  - Gui+↓
-  - ←
-  - ↑
-  - →
-  - {t: ▽, type: trans}
+  - KP 0
+  - KP 1
+  - KP 2
+  - KP 3
+  - APOS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '='
@@ -85,7 +85,7 @@ layers:
   - {t: ▽, type: trans}
   - F10
   - Sft+-
-  - Gui+W
+  - +
   Number Layer:
   - {t: ▽, type: trans}
   - '7'
