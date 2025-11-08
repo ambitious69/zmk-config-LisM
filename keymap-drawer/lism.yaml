@@ -37,8 +37,8 @@ layers:
   - Sft+Gui+4
   - {t: SPACE, h: 記号＆テンキー}
   - {t: TAB, h: mouse Layer}
-  - {t: BS, h: Mark Layer}
-  - {t: ENTER, h: mouse Layer}
+  - {t: BS, h: 記号＆テンキー}
+  - ENTER
   - Sft+Gui+4
   - LANGUAGE 5
   - LEFT GUI
@@ -207,8 +207,8 @@ layers:
   - BT CLR ALL
   - ''
   - ''
-  - ''
-  - ''
+  - {type: held}
+  - {type: held}
   - ''
   - ''
   - ''
@@ -258,3 +258,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+combos:
+- p: [34, 35]
+  k: {t: SPACE, h: Device Layer}
