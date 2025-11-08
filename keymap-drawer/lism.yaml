@@ -10,7 +10,7 @@ layers:
   - U
   - I
   - O
-  - {t: P, h: Number Layer}
+  - {t: P, h: mouse Layer}
   - A
   - S
   - D
@@ -36,9 +36,9 @@ layers:
   - {t: F5, h: LEFT ALT}
   - Sft+Gui+4
   - {t: SPACE, h: 記号＆テンキー}
-  - {t: TAB, h: Number Layer}
+  - {t: TAB, h: mouse Layer}
   - {t: BS, h: Mark Layer}
-  - {t: ENTER, h: Number Layer}
+  - {t: ENTER, h: mouse Layer}
   - Sft+Gui+4
   - LANGUAGE 5
   - LEFT GUI
@@ -86,49 +86,49 @@ layers:
   - F10
   - Sft+-
   - +
-  Number Layer:
+  mouse Layer:
   - {t: ▽, type: trans}
-  - '7'
-  - '8'
-  - '9'
-  - '='
-  - F1
-  - F2
-  - F7
-  - F10
-  - {t: RSHIFT, type: held}
-  - '*'
-  - {t: '4', h: LALT}
-  - {t: '5', h: LSHIFT}
-  - {t: '6', h: LGUI}
-  - {t: '-', h: LCTRL}
+  - {t: ▽, type: trans}
+  - Gui+PRINTSCREEN
+  - Gui+G
+  - Ctl+Sft+K
+  - DEL
+  - Ctl+Sft+TAB
+  - Ctl+TAB
+  - TAB
+  - {type: held}
+  - Ctl+A
+  - Ctl+S
+  - {t: ▽, type: trans}
+  - Ctl+F
+  - Ctl+H
+  - '&msc SCRL_UP'
   - '&mkp MB1'
-  - ←
   - ↑
-  - →
-  - RGUI
-  - /
-  - '1'
-  - '2'
-  - '3'
-  - +
   - '&mkp MB2'
   - ''
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - {t: ▽, type: trans}
+  - '&msc SCRL_DOWN'
+  - LEFT ARROW
   - ↓
+  - RIGHT ARROW
   - ''
-  - RALT
-  - {t: ▽, type: trans}
-  - .
-  - '0'
-  - {t: ▽, type: trans}
-  - LANG2
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LANG1
   - {t: ▽, type: trans}
-  - Sft+Ctl+TAB
-  - Ctl+TAB
-  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   Mark Layer:
   - {t: Sft+Gui+4, type: held}
   - F4
