@@ -52,7 +52,7 @@
             display-name = "Default Layer";
             bindings = <
 &lt 3 Q                      &kp W                           &kp E            &kp R           &kp T                                      &kp Y        &kp U           &kp I           &kp O         &lt 2 P
-&kp A                        &kp S                           &kp D            &kp F           &kp G                                      &kp H        &kp J           &kp K           &kp L         &lt 5 UNDER
+&kp A                        &kp S                           &kp D            &kp F           &kp G                                      &kp H        &kp J           &kp K           &kp L         &lt 5 MINUS
 &kp Z                        &kp X                           &kp C            &kp V           &kp B                                      &kp N        &kp M           &kp COMMA       &kp DOT       &mt RIGHT_SHIFT RIGHT_BRACE
 &mt LEFT_CONTROL LEFT_BRACE  &mt LEFT_SHIFT INTERNATIONAL_1  &mt LEFT_ALT F5  &kp LS(LG(N4))  &lt 1 SPACE  &lt 2 TAB    &lt 3 BACKSPACE  &lt 2 ENTER  &kp LS(LG(N4))  &kp LANGUAGE_5  &kp LEFT_GUI  &mt RIGHT_CONTROL BACKSLASH
             >;
@@ -63,10 +63,10 @@
         layer_1 {
             display-name = "記号＆テンキー";
             bindings = <
-&kp LS(NUMBER_1)    &kp LS(SLASH)  &kp LS(NUMBER_3)  &kp LS(N8)           &kp LS(N9)                           &kp SPACE     &kp RG(LEFT)  &kp RG(RIGHT)  &mkp MB3      &trans
-&kp SLASH           &kp LS(N5)     &kp LS(N6)        &kp LS(COMMA)        &kp LS(PERIOD)                       &kp LG(UP)    &mkp MB1      &mkp MB2       &msc SCRL_UP  &msc SCRL_DOWN
-&kp LS(LEFT_BRACE)  &kp LS(N7)     &kp LS(N2)        &kp LS(RIGHT_BRACE)  &kp LS(BACKSLASH)                    &kp LG(DOWN)  &kp LEFT      &kp UP         &kp RIGHT     &trans
-&trans              &trans         &trans            &trans               &trans             &trans    &trans  &trans        &trans        &kp DOWN       &trans        &kp LG(W)
+&kp LS(NUMBER_1)    &kp LS(SLASH)  &kp LS(NUMBER_3)  &kp LS(N8)           &kp LS(N9)                           &kp SPACE     &kp RG(LEFT)  &kp RG(RIGHT)  &mkp MB3       &trans
+&kp SLASH           &kp LS(N5)     &kp LS(N6)        &kp LS(COMMA)        &kp LS(PERIOD)                       &kp LG(UP)    &mkp MB1      &mkp MB2       &msc SCRL_UP   &msc SCRL_DOWN
+&kp LS(LEFT_BRACE)  &kp LS(N7)     &kp LS(N2)        &kp LS(RIGHT_BRACE)  &kp LS(BACKSLASH)                    &kp LG(DOWN)  &kp LEFT      &kp UP         &kp RIGHT      &trans
+&trans              &trans         &kp EQUAL         &trans               &trans             &trans    &trans  &trans        &trans        &kp F10        &kp LS(MINUS)  &kp LG(W)
             >;
         };
 
