@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: lism}
 layers:
   Default Layer:
-  - Q
+  - {t: Q, h: Mark Layer}
   - W
   - E
   - R
@@ -10,17 +10,17 @@ layers:
   - U
   - I
   - O
-  - P
+  - {t: P, h: Number Layer}
   - A
-  - {t: S, h: LALT}
-  - {t: D, h: LSHIFT}
-  - {t: F, h: LGUI}
-  - {t: G, h: LCTRL}
-  - {t: H, h: RCTRL}
-  - {t: J, h: RGUI}
-  - {t: K, h: RSHIFT}
-  - {t: L, h: RALT}
-  - {t: ;, h: Mark Layer}
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - {t: _, h: Brank Layer}
   - Z
   - X
   - C
@@ -30,19 +30,19 @@ layers:
   - M
   - ','
   - .
-  - /
-  - {t: DEL, h: Device Layer}
-  - {t: Mouse Layer, h: toggle}
-  - {t: TAB, h: Mouse Layer}
+  - {t: '}', h: RIGHT SHIFT}
+  - {t: '{', h: LEFT CONTROL}
+  - {t: INTERNATIONAL 1, h: LEFT SHIFT}
+  - {t: F5, h: LEFT ALT}
   - Sft+Gui+4
-  - {t: SPACE, h: Number Layer}
-  - {t: ESC, h: Mark Layer}
+  - {t: SPACE, h: Mouse Layer}
+  - {t: TAB, h: Number Layer}
   - {t: BS, h: Mark Layer}
   - {t: ENTER, h: Number Layer}
   - Sft+Gui+4
-  - F7
-  - F10
-  - {t: F12, h: Device Layer}
+  - LANGUAGE 5
+  - LEFT GUI
+  - {t: \, h: RIGHT CONTROL}
   Mouse Layer:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -76,9 +76,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -96,7 +96,7 @@ layers:
   - F2
   - F7
   - F10
-  - RSHIFT
+  - {t: RSHIFT, type: held}
   - '*'
   - {t: '4', h: LALT}
   - {t: '5', h: LSHIFT}
@@ -121,7 +121,7 @@ layers:
   - .
   - '0'
   - {t: ▽, type: trans}
-  - {t: LANG2, type: held}
+  - LANG2
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LANG1
@@ -130,7 +130,7 @@ layers:
   - Ctl+TAB
   - F12
   Mark Layer:
-  - Sft+Gui+4
+  - {t: Sft+Gui+4, type: held}
   - F4
   - (
   - )
@@ -149,7 +149,7 @@ layers:
   - _
   - ''''
   - '"'
-  - {t: \, type: held}
+  - \
   - KP NUMLOCK
   - F11
   - '{'
@@ -203,7 +203,7 @@ layers:
   - ''
   - ''
   - Reset
-  - {t: Boot, type: held}
+  - Boot
   - BT CLR ALL
   - ''
   - ''
@@ -235,7 +235,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
