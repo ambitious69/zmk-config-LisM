@@ -61,12 +61,12 @@
         };
 
         layer_1 {
-            display-name = "Mouse Layer";
+            display-name = "記号＆テンキー";
             bindings = <
-&trans    &trans  &trans  &trans  &trans                    &kp SPACE     &kp RG(LEFT)  &kp RG(RIGHT)  &mkp MB3      &trans
-&mkp MB5  &trans  &trans  &trans  &trans                    &kp LG(UP)    &mkp MB1      &mkp MB2       &msc SCRL_UP  &msc SCRL_DOWN
-&mkp MB4  &trans  &trans  &trans  &trans                    &kp LG(DOWN)  &kp LEFT      &kp UP         &kp RIGHT     &trans
-&trans    &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans        &kp DOWN       &trans        &kp LG(W)
+&kp LS(NUMBER_1)    &kp LS(SLASH)  &kp LS(NUMBER_3)  &kp LS(N8)           &kp LS(N9)                           &kp SPACE     &kp RG(LEFT)  &kp RG(RIGHT)  &mkp MB3      &trans
+&kp SLASH           &kp LS(N5)     &kp LS(N6)        &kp LS(COMMA)        &kp LS(PERIOD)                       &kp LG(UP)    &mkp MB1      &mkp MB2       &msc SCRL_UP  &msc SCRL_DOWN
+&kp LS(LEFT_BRACE)  &kp LS(N7)     &kp LS(N2)        &kp LS(RIGHT_BRACE)  &kp LS(BACKSLASH)                    &kp LG(DOWN)  &kp LEFT      &kp UP         &kp RIGHT     &trans
+&trans              &trans         &trans            &trans               &trans             &trans    &trans  &trans        &trans        &kp DOWN       &trans        &kp LG(W)
             >;
         };
 
