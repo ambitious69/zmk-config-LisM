@@ -130,31 +130,31 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Mark Layer:
-  - {t: Sft+Gui+4, type: held}
-  - F4
-  - (
-  - )
-  - ''
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '~'
   - '!'
   - '@'
   - '#'
   - $
-  - '&emoji'
-  - F5
-  - '['
-  - ']'
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '`'
   - _
   - ''''
   - '"'
   - \
-  - KP NUMLOCK
-  - F11
-  - '{'
-  - '}'
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '|'
   - '%'
   - ^
@@ -162,9 +162,9 @@ layers:
   - '*'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '0'
   - {t: ▽, type: trans}
-  - SPACE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ENTER
