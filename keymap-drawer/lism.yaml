@@ -20,7 +20,7 @@ layers:
   - J
   - K
   - L
-  - {t: _, h: Brank Layer}
+  - {t: '-', h: Brank Layer}
   - Z
   - X
   - C
@@ -76,15 +76,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '='
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ↓
-  - {t: ▽, type: trans}
+  - F10
+  - Sft+-
   - Gui+W
   Number Layer:
   - {t: ▽, type: trans}
