@@ -35,7 +35,7 @@ layers:
   - {t: INTERNATIONAL 1, h: LEFT SHIFT}
   - {t: F5, h: LEFT ALT}
   - Sft+Gui+4
-  - {t: SPACE, h: Mouse Layer}
+  - {t: SPACE, h: 記号＆テンキー}
   - {t: TAB, h: Number Layer}
   - {t: BS, h: Mark Layer}
   - {t: ENTER, h: Number Layer}
@@ -43,32 +43,32 @@ layers:
   - LANGUAGE 5
   - LEFT GUI
   - {t: \, h: RIGHT CONTROL}
-  Mouse Layer:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  記号＆テンキー:
+  - Sft+1
+  - Sft+/
+  - Sft+3
+  - Sft+8
+  - Sft+9
   - SPACE
   - Gui+←
   - Gui+→
   - '&mkp MB3'
   - {t: ▽, type: trans}
-  - '&mkp MB5'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - /
+  - Sft+5
+  - Sft+6
+  - Sft+,
+  - Sft+PERIOD
   - Gui+↑
   - '&mkp MB1'
   - '&mkp MB2'
   - '&msc SCRL_UP'
   - '&msc SCRL_DOWN'
-  - '&mkp MB4'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+{
+  - Sft+7
+  - Sft+2
+  - Sft+}
+  - Sft+\
   - Gui+↓
   - ←
   - ↑
