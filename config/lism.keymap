@@ -63,10 +63,10 @@
         layer_1 {
             display-name = "記号＆テンキー";
             bindings = <
-&kp LS(NUMBER_1)    &kp LS(SLASH)  &kp LS(NUMBER_3)  &kp LS(N8)           &kp LS(N9)                           &kp SPACE     &kp RG(LEFT)  &kp RG(RIGHT)  &mkp MB3       &trans
-&kp SLASH           &kp LS(N5)     &kp LS(N6)        &kp LS(COMMA)        &kp LS(PERIOD)                       &kp LG(UP)    &mkp MB1      &mkp MB2       &msc SCRL_UP   &msc SCRL_DOWN
-&kp LS(LEFT_BRACE)  &kp LS(N7)     &kp LS(N2)        &kp LS(RIGHT_BRACE)  &kp LS(BACKSLASH)                    &kp LG(DOWN)  &kp LEFT      &kp UP         &kp RIGHT      &trans
-&trans              &trans         &kp EQUAL         &trans               &trans             &trans    &trans  &trans        &trans        &kp F10        &kp LS(MINUS)  &kp LG(W)
+&kp LS(NUMBER_1)    &kp LS(SLASH)  &kp LS(NUMBER_3)  &kp LS(N8)           &kp LS(N9)                           &kp PERIOD       &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS
+&kp SLASH           &kp LS(N5)     &kp LS(N6)        &kp LS(COMMA)        &kp LS(PERIOD)                       &kp COMMA        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_SLASH
+&kp LS(LEFT_BRACE)  &kp LS(N7)     &kp LS(N2)        &kp LS(RIGHT_BRACE)  &kp LS(BACKSLASH)                    &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp APOS
+&trans              &trans         &kp EQUAL         &trans               &trans             &trans    &trans  &trans           &trans           &kp F10          &kp LS(MINUS)    &kp PLUS
             >;
         };
 
