@@ -71,12 +71,12 @@
         };
 
         layer_2 {
-            display-name = "Number Layer";
+            display-name = "mouse Layer";
             bindings = <
-&trans        &kp NUMBER_7       &kp NUMBER_8         &kp NUMBER_9       &kp EQUAL                          &kp F1     &kp F2    &kp F7           &kp F10      &kp RSHIFT
-&kp ASTERISK  &mt LALT NUMBER_4  &mt LSHIFT NUMBER_5  &mt LGUI NUMBER_6  &mt LCTRL MINUS                    &mkp MB1   &kp LEFT  &kp UP           &kp RIGHT    &kp RGUI
-&kp SLASH     &kp NUMBER_1       &kp NUMBER_2         &kp NUMBER_3       &kp PLUS                           &mkp MB2   &none     &kp DOWN         &none        &kp RALT
-&trans        &kp DOT            &kp NUMBER_0         &trans             &kp LANG2        &trans    &trans  &kp LANG1  &trans    &kp RS(RC(TAB))  &kp RC(TAB)  &kp F12
+&trans     &trans     &kp LG(PRINTSCREEN)  &kp LG(G)  &kp LC(LS(K))                    &kp DEL         &kp LC(LS(TAB))  &kp LC(TAB)  &kp TAB          &none
+&kp LC(A)  &kp LC(S)  &trans               &kp LC(F)  &kp LC(H)                        &msc SCRL_UP    &mkp MB1         &kp UP       &mkp MB2         &none
+&kp LC(Z)  &kp LC(X)  &kp LC(C)            &kp LC(V)  &trans                           &msc SCRL_DOWN  &kp LEFT_ARROW   &kp DOWN     &kp RIGHT_ARROW  &none
+&trans     &trans     &trans               &trans     &trans         &trans    &trans  &trans          &trans           &trans       &trans           &trans
             >;
 
             sensor-bindings = <&encoder_kp C_VOL_UP C_VOL_DN>;
