@@ -66,7 +66,7 @@
 &mt LEFT_CONTROL LEFT_BRACE  &mt LEFT_SHIFT INTERNATIONAL_1  &mt LEFT_ALT F5  &kp LS(LG(N4))  &lt 1 SPACE  &lt 2 TAB    &lt 1 BACKSPACE  &kp ENTER  &kp LS(LG(N4))  &kp LANGUAGE_5  &kp LEFT_GUI  &mt RIGHT_CONTROL BACKSLASH
             >;
 
-            sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
+            sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
         };
 
         layer_1 {
@@ -82,22 +82,22 @@
         layer_2 {
             display-name = "mouse Layer";
             bindings = <
-&trans     &trans     &kp LG(PRINTSCREEN)  &kp LG(G)  &kp LC(LS(K))                    &kp DEL         &kp LC(LS(TAB))  &kp LC(TAB)  &kp TAB          &none
+&trans     &trans     &kp LG(PRINTSCREEN)  &kp LG(G)  &kp LC(LS(K))                    &kp DEL         &kp LC(LS(TAB))  &kp LC(TAB)  &mkp MB3         &none
 &kp LC(A)  &kp LC(S)  &trans               &kp LC(F)  &kp LC(H)                        &msc SCRL_UP    &mkp MB1         &kp UP       &mkp MB2         &none
 &kp LC(Z)  &kp LC(X)  &kp LC(C)            &kp LC(V)  &trans                           &msc SCRL_DOWN  &kp LEFT_ARROW   &kp DOWN     &kp RIGHT_ARROW  &none
 &trans     &trans     &trans               &trans     &trans         &trans    &trans  &trans          &trans           &trans       &trans           &trans
             >;
 
-            sensor-bindings = <&encoder_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
         };
 
         layer_3 {
             display-name = "Mark Layer";
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
-&trans  &trans  &trans  &trans  &trans                    &none   &none   &none   &none    &kp F12
-&trans  &trans  &trans  &trans  &trans                    &none   &none   &none   &none    &none
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans   &trans
+&trans  &trans  &trans  &trans  &trans                            &kp F7        &kp F8        &kp F9        &kp F10       &kp F11
+&trans  &trans  &trans  &trans  &bt BT_CLR                        &none         &none         &none         &none         &kp F12
+&trans  &trans  &trans  &trans  &bt BT_CLR_ALL                    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&trans  &trans  &trans  &trans  &trans          &trans    &trans  &trans        &trans        &trans        &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp TAB LS(TAB)>;
@@ -106,21 +106,23 @@
         layer_4 {
             display-name = "Device Layer";
             bindings = <
-&none        &none           &none  &none  &bt BT_CLR                  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&none        &none           &none  &none  &none                       &none         &none         &none         &none         &none
-&sys_reset   &none           &none  &none  &none                       &none         &none         &none         &none         &sys_reset
-&bootloader  &bt BT_CLR_ALL  &none  &none  &none       &none    &none  &none         &none         &none         &none         &bootloader
+&none           &none       &none  &none  &none                  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&none           &none       &none  &none  &none                  &none         &none         &none         &none         &none
+&none           &none       &none  &none  &none                  &none         &none         &none         &none         &sys_reset
+&bt BT_CLR_ALL  &bt BT_CLR  &none  &none  &none  &none    &none  &none         &none         &none         &none         &bootloader
             >;
         };
 
         layer_5 {
             display-name = "Brank Layer";
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&kp C_BRIGHTNESS_INC  &kp C_VOLUME_UP  &none           &none           &mkp MB3                           &kp DEL         &kp LS(LC(TAB))  &kp LC(TAB)     &mkp MB3         &none
+&kp C_BRIGHTNESS_DEC  &kp C_VOL_DN     &mkp MB1        &mmv MOVE_UP    &mkp MB2                           &msc SCRL_UP    &mkp MB1         &kp UP_ARROW    &mkp MB2         &none
+&none                 &none            &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT                    &msc SCRL_DOWN  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &none
+&trans                &trans           &trans          &trans          &trans           &trans    &trans  &trans          &trans           &trans          &trans           &trans
             >;
+
+            sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
         };
 
         layer_6 {
