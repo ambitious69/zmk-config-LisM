@@ -30,8 +30,8 @@ layers:
   - M
   - ','
   - .
-  - {t: LBKT, h: RIGHT SHIFT}
-  - {t: AT, h: LEFT CONTROL}
+  - {t: RBKT, h: RIGHT SHIFT}
+  - {t: LBKT, h: LEFT CONTROL}
   - {t: Sft+INTERNATIONAL 1, h: LEFT SHIFT}
   - {t: F5, h: LEFT ALT}
   - LANG1
@@ -132,7 +132,7 @@ layers:
   Mark Layer:
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '}'
   - ''
   - ''
   - F7
@@ -142,7 +142,7 @@ layers:
   - F11
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RBKT
   - ''
   - BT CLR
   - ''
@@ -151,8 +151,8 @@ layers:
   - ''
   - F12
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '['
+  - ']'
   - ''
   - BT CLR ALL
   - {t: BT, h: '0'}
