@@ -131,8 +131,8 @@ layers:
   - {t: ▽, type: trans}
   Mark Layer:
   - {type: held}
-  - {t: ▽, type: trans}
-  - '}'
+  - ''
+  - ''
   - ''
   - ''
   - F7
@@ -140,9 +140,9 @@ layers:
   - F9
   - F10
   - F11
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - RBKT
+  - ''
+  - ''
+  - ''
   - ''
   - BT CLR
   - ''
@@ -150,9 +150,9 @@ layers:
   - ''
   - ''
   - F12
-  - {t: ▽, type: trans}
-  - '['
-  - ']'
+  - ''
+  - ''
+  - ''
   - ''
   - BT CLR ALL
   - {t: BT, h: '0'}
