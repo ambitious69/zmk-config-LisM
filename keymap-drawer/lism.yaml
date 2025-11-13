@@ -81,9 +81,9 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - F10
+  - {t: ▽, type: trans}
+  - KP 0
   - Sft+-
   - KP PLUS
   mouse Layer:
@@ -131,8 +131,8 @@ layers:
   - {t: ▽, type: trans}
   Mark Layer:
   - {type: held}
-  - ''
-  - ''
+  - '&mkp MB4'
+  - '&mkp MB5'
   - ''
   - ''
   - F7
