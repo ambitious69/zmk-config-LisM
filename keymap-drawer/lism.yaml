@@ -93,8 +93,8 @@ layers:
   - ''
   - '&mkp MB3'
   - DEL
-  - Ctl+Sft+TAB
-  - Ctl+TAB
+  - '&mkp MB4'
+  - '&mkp MB5'
   - '&mkp MB3'
   - ''
   - BRIGHTNESS DEC
@@ -131,8 +131,8 @@ layers:
   - {t: ▽, type: trans}
   Mark Layer:
   - {type: held}
-  - '&mkp MB4'
-  - '&mkp MB5'
+  - Ctl+Sft+TAB
+  - Ctl+TAB
   - ''
   - ''
   - F7
@@ -141,8 +141,8 @@ layers:
   - F10
   - F11
   - ''
-  - ''
-  - ''
+  - Sft+TAB
+  - TAB
   - ''
   - BT CLR
   - ''
