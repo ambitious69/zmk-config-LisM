@@ -75,7 +75,7 @@
 &kp LS(NUMBER_1)    &kp LS(SLASH)  &kp LS(NUMBER_3)  &kp LS(N8)           &kp LS(N9)                           &kp PERIOD       &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS
 &kp SLASH           &kp LS(N5)     &kp LS(N6)        &kp LS(COMMA)        &kp LS(PERIOD)                       &kp COMMA        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_SLASH
 &kp LS(LEFT_BRACE)  &kp LS(N7)     &kp LS(N2)        &kp LS(RIGHT_BRACE)  &kp LS(BACKSLASH)                    &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp APOS
-&trans              &trans         &kp LS(EQUAL)     &trans               &trans             &trans    &trans  &trans           &trans           &kp F10          &kp LS(MINUS)    &kp KP_PLUS
+&trans              &trans         &kp LS(EQUAL)     &trans               &trans             &trans    &trans  &kp F10          &trans           &kp KP_NUMBER_0  &kp LS(MINUS)    &kp KP_PLUS
             >;
 
             sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
@@ -96,10 +96,10 @@
         layer_3 {
             display-name = "Mark Layer";
             bindings = <
-&none   &none   &none   &none   &none                             &kp F7        &kp F8        &kp F9        &kp F10       &kp F11
-&none   &none   &none   &none   &bt BT_CLR                        &none         &none         &none         &none         &kp F12
-&none   &none   &none   &none   &bt BT_CLR_ALL                    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans  &trans  &trans  &trans  &trans          &trans    &trans  &trans        &trans        &trans        &trans        &trans
+&none   &mkp MB4  &mkp MB5  &none   &none                             &kp F7        &kp F8        &kp F9        &kp F10       &kp F11
+&none   &none     &none     &none   &bt BT_CLR                        &none         &none         &none         &none         &kp F12
+&none   &none     &none     &none   &bt BT_CLR_ALL                    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&trans  &trans    &trans    &trans  &trans          &trans    &trans  &trans        &trans        &trans        &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(TAB) LS(LC(TAB))>;
