@@ -114,10 +114,10 @@
         layer_5 {
             display-name = "Number Layer";
             bindings = <
-&kp LS(NUMBER_1)    &kp LS(SLASH)        &kp LS(NUMBER_3)  &kp COLON         &none                               &kp PERIOD    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9        &kp MINUS
+&kp LS(NUMBER_1)    &kp LS(SLASH)        &kp LS(NUMBER_3)  &kp LS(APOS)      &none                               &kp PERIOD    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9        &kp MINUS
 &kp SLASH           &kp LS(N5)           &kp LS(NUMBER_6)  &none             &none                               &kp COMMA     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6        &kp SLASH
 &kp LS(LEFT_BRACE)  &kp LS(NUMBER_7)     &kp LS(NUMBER_2)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)                    &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3        &kp APOS
-&trans              &kp INTERNATIONAL_1  &kp LS(EQUAL)     &trans            &trans            &trans    &trans  &kp F10       &trans        &kp COLON     &kp LS(UNDERSCORE)  &kp KP_PLUS
+&trans              &kp INTERNATIONAL_1  &kp LS(EQUAL)     &trans            &trans            &trans    &trans  &kp F10       &trans        &kp LS(APOS)  &kp LS(UNDERSCORE)  &kp KP_PLUS
                                          &trans            &trans            &trans                              &trans        &trans        &trans
             >;
 
