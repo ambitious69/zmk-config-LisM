@@ -51,14 +51,14 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&lt 3 Q         &kp W                               &kp E               &kp R           &kp T                                      &kp Y           &kp U           &kp I                       &kp O                       &lt 1 P
-&kp A           &kp S                               &kp D               &kp F           &kp G                                      &kp H           &kp J           &kp K                       &kp L                       &lt 2 MINUS
-&kp Z           &kp X                               &kp C               &kp V           &kp B                                      &kp N           &kp M           &kp COMMA                   &kp DOT                     &mt LEFT_SHIFT RIGHT_BRACKET
-&mt LCTRL LBKT  &mt LEFT_SHIFT LS(INTERNATIONAL_1)  &mt LEFT_ALT GRAVE  &kp F5          &lt 5 SPACE  &lt 1 TAB    &lt 5 BACKSPACE  &lt 6 ENTER     &msc SCRL_UP    &mt RIGHT_ALT LS(NUMBER_8)  &mt RIGHT_GUI LS(NUMBER_9)  &mt LEFT_CONTROL BACKSLASH
-                                                    &kp LS(LC(TAB))     &msc SCRL_DOWN  &kp LC(TAB)                                &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT
+&lt 3 Q         &kp W                               &kp E            &kp R           &kp T                                      &kp Y           &kp U           &kp I                   &kp O                   &lt 1 P
+&kp A           &kp S                               &kp D            &kp F           &kp G                                      &kp H           &kp J           &kp K                   &kp L                   &lt 2 MINUS
+&kp Z           &kp X                               &kp C            &kp V           &kp B                                      &kp N           &kp M           &kp COMMA               &kp DOT                 &mt LEFT_SHIFT RIGHT_BRACKET
+&mt LCTRL LBKT  &mt LEFT_SHIFT LS(INTERNATIONAL_1)  &mt LEFT_ALT F5  &kp GRAVE       &lt 5 SPACE  &lt 1 TAB    &lt 5 BACKSPACE  &lt 6 ENTER     &msc SCRL_UP    &mt RIGHT_ALT LS(RBKT)  &mt RIGHT_GUI LS(BSLH)  &mt LEFT_CONTROL BACKSLASH
+                                                    &kp LS(LC(TAB))  &msc SCRL_DOWN  &kp LC(TAB)                                &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT
             >;
 
-            sensor-bindings = <&encoder_kp LS(LC(TAB)) LC(TAB)>;
+            sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
         };
 
         layer_1 {
@@ -80,24 +80,24 @@
 &kp ESCAPE  &none      &kp LG(PRINTSCREEN)  &kp LG(G)  &kp LC(LS(K))                    &kp DEL   &kp LC(LS(TAB))  &kp LC(TAB)  &kp TAB          &none
 &kp LC(A)   &kp LC(S)  &none                &kp LC(F)  &kp LC(LCTRL)                    &mkp MB4  &mkp MB1         &kp UP       &mkp MB2         &none
 &kp LC(Z)   &kp LC(X)  &kp LC(C)            &kp LC(V)  &none                            &mkp MB5  &kp LEFT_ARROW   &kp DOWN     &kp RIGHT_ARROW  &none
-&trans      &trans     &trans               &kp UP     &trans         &trans    &trans  &trans    &kp UP           &trans       &trans           &trans
+&trans      &trans     &trans               &trans     &trans         &trans    &trans  &trans    &kp UP           &trans       &trans           &trans
                        &kp LEFT             &kp DOWN   &kp RIGHT                        &kp LEFT  &kp DOWN         &kp RIGHT
             >;
 
-            sensor-bindings = <&encoder_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp LS(LC(TAB)) LC(TAB)>;
         };
 
         layer_3 {
             display-name = "Mark Layer";
             bindings = <
-&none   &kp C_BRIGHTNESS_INC  &kp C_VOL_UP  &kp LANGUAGE_1  &kp RS(LANGUAGE_2)                    &kp F7        &kp F8        &kp F9        &kp F10       &kp F11
-&none   &kp C_BRIGHTNESS_DEC  &kp C_VOL_DN  &none           &none                                 &none         &none         &none         &none         &kp F12
-&none   &none                 &none         &none           &none                                 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans  &trans                &trans        &trans          &trans              &trans    &trans  &trans        &trans        &none         &bt BT_CLR    &bt BT_CLR_ALL
-                              &trans        &trans          &trans                                &trans        &trans        &trans
+&none   &kp GRAVE  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_UP  &kp LANG1                    &kp F7        &kp F8        &kp F9        &kp F10       &kp F11
+&none   &none      &kp C_BRIGHTNESS_DEC  &kp C_VOL_DN     &kp LANG2                    &none         &none         &none         &none         &kp F12
+&none   &none      &none                 &none            &none                        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&trans  &trans     &trans                &trans           &trans     &trans    &trans  &trans        &trans        &none         &bt BT_CLR    &bt BT_CLR_ALL
+                   &trans                &trans           &trans                       &trans        &trans        &trans
             >;
 
-            sensor-bindings = <&encoder_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         layer_4 {
@@ -115,13 +115,13 @@
             display-name = "Number Layer";
             bindings = <
 &kp LS(NUMBER_1)    &kp LS(SLASH)        &kp LS(NUMBER_3)  &kp LS(APOS)      &none                               &kp PERIOD    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9        &kp MINUS
-&kp SLASH           &kp LS(N5)           &kp LS(NUMBER_6)  &kp LS(RBKT)      &kp LS(BSLH)                        &kp COMMA     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6        &kp SLASH
+&kp SLASH           &kp LS(N5)           &kp LS(NUMBER_6)  &none             &none                               &kp COMMA     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6        &kp SLASH
 &kp LS(LEFT_BRACE)  &kp LS(NUMBER_7)     &kp LS(NUMBER_2)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)                    &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3        &kp APOS
 &trans              &kp INTERNATIONAL_1  &kp LS(EQUAL)     &trans            &trans            &trans    &trans  &kp F10       &trans        &kp LS(APOS)  &kp LS(UNDERSCORE)  &kp KP_PLUS
                                          &trans            &trans            &trans                              &trans        &trans        &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LS(LC(TAB)) LC(TAB)>;
+            sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
         };
 
         layer_6 {
@@ -134,6 +134,8 @@
 &trans        &trans        &trans        &trans        &trans  &trans    &trans  &trans     &trans     &trans               &trans     &trans
                             &trans        &trans        &trans                    &trans     &trans     &trans
             >;
+
+            sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
         };
     };
 };
